@@ -181,7 +181,7 @@ const About: React.FC = () => {
         <section className="py-20 bg-white relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 mb-16 text-center">
               <h3 className="text-3xl md:text-4xl font-black text-gray-900 tracking-tight mb-4">
-                Meet Our <span className="text-green-500">Innovation Engineer</span> at GreenSoulIT Family
+                Meet Our <span className="text-green-500">Team</span>
               </h3>
               <p className="text-gray-400 text-sm font-medium max-w-xl mx-auto">
                 The brilliant minds behind our success. Hover over each member to discover their role and passion.

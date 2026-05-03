@@ -1,0 +1,9 @@
+
+{
+  "name": "GreenGrowth Digital Agency",
+  "description": "A modern, green-themed digital marketing agency website with interactive hero sliders, service showcases, case studies, and a integrated auth flow.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

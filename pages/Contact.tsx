@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
 
             {/* Left Section */}
             <div>
-              <h2 className="text-green-500 font-bold tracking-widest uppercase text-lg sm:text-xl mb-2 sm:mb-3">
+              <h2 className="text-green-600 font-bold tracking-widest uppercase text-lg sm:text-xl mb-2 sm:mb-3">
                 Get in Touch
               </h2>
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-8">
@@ -48,37 +48,37 @@ const Contact: React.FC = () => {
 
               <div className="space-y-6 sm:space-y-8">
                 <div className="flex items-start space-x-4 sm:space-x-6">
-                  <div className="bg-green-100 p-3 sm:p-4 rounded-2xl text-green-600">
+                  <div className="bg-green-200 p-3 sm:p-4 rounded-2xl text-green-600">
                     <MapPin className="w-5 h-5 sm:w-6 sm:h-6" />
                   </div>
                   <div>
                     <h5 className="font-bold text-md sm:text-lg">Our Office</h5>
                     <p className="text-gray-600 text-sm sm:text-base">
-                      Address: South Banasree, Road 12, House 26, Dhaka
+                      South Banasree, Road 12, House 26, Dhaka
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4 sm:space-x-6">
-                  <div className="bg-green-100 p-3 sm:p-4 rounded-2xl text-green-600">
+                  <div className="bg-green-200 p-3 sm:p-4 rounded-2xl text-green-600">
                     <Mail className="w-5 h-5 sm:w-6 sm:h-6" />
                   </div>
                   <div>
                     <h5 className="font-bold text-md sm:text-lg">Email Us</h5>
                     <p className="text-gray-600 text-sm sm:text-base">
-                      Email: greensoulit@gmail.com
+                      greensoulit@gmail.com
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4 sm:space-x-6">
-                  <div className="bg-green-100 p-3 sm:p-4 rounded-2xl text-green-600">
+                  <div className="bg-green-200 p-3 sm:p-4 rounded-2xl text-green-600">
                     <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
                   </div>
                   <div>
                     <h5 className="font-bold text-md sm:text-lg">Call Us</h5>
                     <p className="text-gray-600 text-sm sm:text-base">
-                      Phone: 01851949352
+                      +88 01607-183592
                     </p>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
               <div className="mt-8 sm:mt-12">
                 <button 
                   onClick={openWhatsApp}
-                  className="flex items-center justify-center space-x-2 w-full sm:w-auto bg-[#25D366] text-white px-6 sm:px-8 py-3 rounded-full font-bold hover:shadow-lg hover:shadow-green-500/20 active:scale-95 transition-all"
+                  className="flex items-center justify-center space-x-2 w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white px-6 sm:px-8 py-3 rounded-full font-bold hover:shadow-lg hover:shadow-green-500/20 active:scale-95 transition-all"
                 >
                   <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
                   <span>Chat with us on WhatsApp</span>
@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                   </p>
                   <button 
                     onClick={() => setStatus('idle')}
-                    className="bg-green-500 text-white px-6 py-3 rounded-full font-bold hover:bg-green-600 transition"
+                    className="bg-green-600 text-white px-6 py-3 rounded-full font-bold hover:bg-green-600 transition"
                   >
                     Send another message
                   </button>
@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
                   <button
                     type="submit"
                     disabled={status === 'loading'}
-                    className="w-full bg-green-500 text-white py-3 rounded-full font-bold hover:bg-green-600 transition disabled:opacity-50"
+                    className="w-full bg-green-600 text-white py-3 rounded-full font-bold hover:bg-green-700 transition disabled:opacity-50"
                   >
                     {status === 'loading' ? 'Sending...' : 'Send Message'}
                   </button>

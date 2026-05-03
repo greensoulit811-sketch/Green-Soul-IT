@@ -47,10 +47,10 @@ const Footer: React.FC = () => {
             </p>
 
             <div className="flex space-x-4">
-              <a href="#" className="social-btn"><Facebook className="w-5 h-5" /></a>
-              <a href="#" className="social-btn"><Twitter className="w-5 h-5" /></a>
-              <a href="#" className="social-btn"><Instagram className="w-5 h-5" /></a>
-              <a href="#" className="social-btn"><Linkedin className="w-5 h-5" /></a>
+              <a href="https://www.facebook.com/greensoulmarketin" className="social-btn"><Facebook className="w-5 h-5" /></a>
+              <a href="https://www.twitter.com/greensoulmarketin" className="social-btn"><Twitter className="w-5 h-5" /></a>
+              <a href="https://www.instagram.com/greensoulmarketin" className="social-btn"><Instagram className="w-5 h-5" /></a>
+              <a href="https://www.linkedin.com/company/greensoulmarketin" className="social-btn"><Linkedin className="w-5 h-5" /></a>
             </div>
           </div>
 

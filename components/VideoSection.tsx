@@ -30,7 +30,7 @@ const VideoSection: React.FC = () => {
           <div>
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
               Grow Your Business With{" "}
-              <span className="text-green-500">Creative Digital Strategy</span>
+              <span className="text-green-600">Creative Digital Strategy</span>
             </h2>
 
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">
@@ -45,7 +45,7 @@ const VideoSection: React.FC = () => {
               real results and scale businesses effectively in today's digital world.
             </p>
 
-            <button className="mt-8 bg-green-500 text-white px-8 py-3 rounded-xl font-semibold shadow-md hover:bg-green-600 transition">
+            <button className="mt-8 bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-xl font-semibold shadow-md transition">
               Get Started
             </button>
           </div>

@@ -6,9 +6,9 @@ const caseStudies = [
     id: '1',
     title: 'Social Media Campaign',
     description: 'Boosted engagement and lead generation by 70% using data-driven social media strategies across Instagram and LinkedIn.',
-    image: 'https://www.suryainformatics.com/wp-content/uploads/2023/12/wp3950068.jpg',
+    image: 'https://timesinternet.in/blog/wp-content/uploads/2023/12/Shutterstock_1814591309.jp',
     category: 'Digital Strategy',
-    link: '/case-studies/1', // link to details page
+    link: '/case-studies/1',
   },
   {
     id: '2',
@@ -26,6 +26,14 @@ const caseStudies = [
     category: 'Email Marketing',
     link: '/case-studies/3',
   },
+  {
+    id: '4',
+    title: 'E-commerce Growth Engine',
+    description: 'Developed a high-converting e-commerce platform with custom integrations, resulting in a 150% increase in online revenue within the first quarter.',
+    image: 'https://img.freepik.com/premium-photo/web-development-concept-with-laptop-icons_23-2148784348.jpg',
+    category: 'Web Development',
+    link: '/case-studies/4',
+  },
 ];
 
 const CaseStudies: React.FC = () => {
@@ -35,7 +43,7 @@ const CaseStudies: React.FC = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16">
           <div>
-            <h2 className="text-green-500 font-bold tracking-widest uppercase text-sm mb-3">
+            <h2 className="text-green-600 font-bold tracking-widest uppercase text-sm mb-3">
               Our Work
             </h2>
             <h3 className="text-4xl font-bold text-gray-900">Recent Case Studies</h3>

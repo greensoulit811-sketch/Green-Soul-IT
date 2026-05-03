@@ -63,7 +63,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, onLogout }) => {
               className="h-14 w-auto rounded-md"
             />
             <span className="ml-2 text-xl font-medium text-gray-500 hidden sm:block group-hover:text-gray-800 transition">
-              Digital Agency
+              Digital Marketing Agency
             </span>
           </Link>
 
@@ -128,7 +128,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, onLogout }) => {
             ) : (
               <Link
                 to="/auth"
-                className="bg-green-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-600"
+                className="bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700"
               >
                 Login
               </Link>

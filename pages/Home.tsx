@@ -39,7 +39,7 @@ const Home: React.FC = () => {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-green-500 font-bold tracking-widest uppercase text-sm mb-3">What We Offer</h2>
+            <h2 className="text-green-600 font-bold tracking-widest uppercase text-sm mb-3">What We Offer</h2>
             <h3 className="text-4xl font-bold text-gray-900">Our Premium Services</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -49,9 +49,9 @@ const Home: React.FC = () => {
                   <img src={service.image} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="p-8">
-                  <h4 className="text-2xl font-bold mb-4 group-hover:text-green-500 transition-colors">{service.title}</h4>
+                  <h4 className="text-2xl font-bold mb-4 group-hover:text-green-600 transition-colors">{service.title}</h4>
                   <p className="text-gray-600 mb-6 line-clamp-2">{service.description}</p>
-                  <Link to={`/services/${service.slug}`} className="inline-flex items-center text-green-500 font-bold hover:translate-x-2 transition-transform">
+                  <Link to={`/services/${service.slug}`} className="inline-flex items-center text-green-600 font-bold hover:translate-x-2 transition-transform">
                     Learn More <ArrowRight className="ml-2 w-4 h-4" />
                   </Link>
                 </div>
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Link to="/services" className="inline-block border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white px-8 py-3 rounded-full font-bold transition-all">
+            <Link to="/services" className="inline-block border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-3 rounded-full font-bold transition-all">
               View All Services
             </Link>
           </div>

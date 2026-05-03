@@ -78,7 +78,7 @@ const Services: React.FC = () => {
           <div className="flex flex-wrap gap-4 mb-6">
             <Link
               to="/services"
-              className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600"
+              className="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-600"
             >
               All Services
             </Link>
@@ -157,7 +157,7 @@ const Services: React.FC = () => {
 
                 <Link
                   to="/services"
-                  className="bg-green-500 text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-colors inline-flex"
+                  className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-colors inline-flex"
                 >
                   Back to All Services
                 </Link>

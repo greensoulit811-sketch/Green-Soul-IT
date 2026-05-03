@@ -36,6 +36,12 @@ export interface TeamMember {
   name: string;
   role: string;
   photo: string;
+  company?: string;
+  details?: string;
+  linkedin?: string;
+  twitter?: string;
+  github?: string;
+  facebook?: string;
 }
 
 export interface User {

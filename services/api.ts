@@ -49,46 +49,46 @@ export const fetchServices = async (): Promise<Service[]> => {
   },
   {
     id: '3',
-    title: 'Social Media Marketing',
-    slug: 'social-media-marketing',
-    description: 'Our social media marketing services help grow your brand presence across Facebook, Instagram, and other platforms. We create content calendars, schedule engaging posts, run promotions, and monitor analytics to increase engagement, reach, and follower growth. Focused on building a loyal community and boosting your online reputation.',
-    image: 'https://media.licdn.com/dms/image/v2/D4D12AQHFymeR2tK9ZA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1655528485759?e=2147483647&v=beta&t=l2NVlgOYYlDHCrqF8JZlHuXTbpQkLHqTdiAoixk5NA0'
-  },
-  {
-    id: '4',
-    title: 'AI Video Make',
-    slug: 'ai-logo-design',
-    description: 'We design unique, professional, and memorable logos using AI-powered tools combined with expert design principles. Each logo reflects your brand values, communicates your identity clearly, and ensures you stand out in your industry. Our service also includes color schemes, branding guidance, and formats ready for print or digital use.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28Y8haU2qBHx6mAFwqnQC5RWcQ4Tm-J419Q&s'
-  },
-  {
-    id: '5',
-    title: 'Video Content make with Model',
-    slug: 'content-creation-post-boost',
-    description: 'Engage your audience with high-quality content tailored for your brand. We create compelling Facebook posts, visuals, and copywriting, then boost them strategically to reach the right audience. Our service improves brand awareness, increases engagement, and helps your posts perform better in the Facebook algorithm.',
-    image: 'https://img.freepik.com/free-photo/blonde-influencer-recording-make-up-video_23-2148135468.jpg?semt=ais_user_personalization&w=740&q=80'
-  },
-  {
-    id: '6',
-    title: 'Graphics Design ',
-    slug: 'graphics-design',
-    description: 'Our graphics design service delivers visually stunning creatives for social media, ads, banners, and posts. Each design is crafted to grab attention, communicate your message effectively, and maintain brand consistency. Perfect for businesses seeking professional visual content that drives engagement and sales.',
-    image: 'https://img.freepik.com/premium-vector/modern-web-graphics-pack-vector-eps_1348508-29.jpg?semt=ais_hybrid&w=740&q=80'
-  },
-  {
-    id: '7',
     title: 'Website Design & Development',
     slug: 'website-design',
     description: 'We create modern, responsive, and user-friendly websites tailored to your brand and business goals. Our team focuses on clean design, fast performance, and seamless navigation to ensure a great user experience. Ideal for businesses looking to establish an online presence, showcase products/services, and convert visitors into customers.',
     image: 'https://img.freepik.com/premium-photo/web-design-team-work-project-concept-yellow-desk-with-web-design-text-top-view-flat-lay_176814-960.jpg?semt=ais_user_personalization&w=740&q=80'
   },
   {
-    id: '8',
+    id: '4',
+    title: 'Social Media Marketing',
+    slug: 'social-media-marketing',
+    description: 'Our social media marketing services help grow your brand presence across Facebook, Instagram, and other platforms. We create content calendars, schedule engaging posts, run promotions, and monitor analytics to increase engagement, reach, and follower growth. Focused on building a loyal community and boosting your online reputation.',
+    image: 'https://media.licdn.com/dms/image/v2/D4D12AQHFymeR2tK9ZA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1655528485759?e=2147483647&v=beta&t=l2NVlgOYYlDHCrqF8JZlHuXTbpQkLHqTdiAoixk5NA0'
+  },
+  {
+    id: '5',
     title: 'Facebook Ads Management',
     slug: 'facebook-ads-management',
     description: 'Our Facebook ads management service helps you run, monitor, and optimize campaigns effectively. We handle audience targeting, creative design, budget allocation, and analytics tracking to maximize leads and sales. Perfect for businesses that want a hands-free approach to advertising while achieving measurable results.',
     image: 'https://i.ytimg.com/vi/iCs4XSHAuPM/maxresdefault.jpg'
-  }
+  },
+  {
+    id: '6',
+    title: 'AI Video Make',
+    slug: 'ai-logo-design',
+    description: 'We design unique, professional, and memorable logos using AI-powered tools combined with expert design principles. Each logo reflects your brand values, communicates your identity clearly, and ensures you stand out in your industry. Our service also includes color schemes, branding guidance, and formats ready for print or digital use.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28Y8haU2qBHx6mAFwqnQC5RWcQ4Tm-J419Q&s'
+  },
+  {
+    id: '7',
+    title: 'Video Content make with Model',
+    slug: 'content-creation-post-boost',
+    description: 'Engage your audience with high-quality content tailored for your brand. We create compelling Facebook posts, visuals, and copywriting, then boost them strategically to reach the right audience. Our service improves brand awareness, increases engagement, and helps your posts perform better in the Facebook algorithm.',
+    image: 'https://img.freepik.com/free-photo/blonde-influencer-recording-make-up-video_23-2148135468.jpg?semt=ais_user_personalization&w=740&q=80'
+  },
+  {
+    id: '8',
+    title: 'Graphics Design ',
+    slug: 'graphics-design',
+    description: 'Our graphics design service delivers visually stunning creatives for social media, ads, banners, and posts. Each design is crafted to grab attention, communicate your message effectively, and maintain brand consistency. Perfect for businesses seeking professional visual content that drives engagement and sales.',
+    image: 'https://img.freepik.com/premium-vector/modern-web-graphics-pack-vector-eps_1348508-29.jpg?semt=ais_hybrid&w=740&q=80'
+  },
   ];
 };
 
@@ -127,45 +127,53 @@ export const fetchTeam = async (): Promise<TeamMember[]> => {
   await delay(500);
   return [
     {
-    id: '1',
-    name: 'Tareque Mahmud',
-    role: 'CEO & Founder',
-    company: 'Green Soul IT',
-    photo: 'https://simple-portfolio-seven-delta.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Funnamed.3c1127a3.jpg&w=1080&q=75',
-    details: 'MBA in Business Administration from Dhaka University. 10+ years experience leading tech startups and digital ventures.'
-  },
-  {
-    id: '2',
-    name: 'Aminul Islam Shuvo',
-    role: 'Marketing Head',
-    company: 'Green Soul IT',
-    photo: 'https://i.postimg.cc/QdY0Y5cB/shuvo-vai.jpg',
-    details: 'Gont. Tolaram College. Expert in digital marketing strategies.'
-  },
-  {
-    id: '3',
-    name: 'Abida Rahman',
-    role: 'Digital Marketer',
-    company: 'Green Soul IT',
-    photo: 'https://picsum.photos/seed/cd/400/400',
-    details: 'Southeast University. 1+ years experience in creative direction marketing.'
-  },
-  // {
-  //   id: '4',
-  //   name: 'Kaniz Fatema',
-  //   role: 'Web Developer',
-  //   company: 'Green Soul IT',
-  //   photo: 'https://i.postimg.cc/7LQdzdKd/Kaniz.jpg',
-  //   details: 'BSc in Computer Science from DIU. Specializes in frontend & backend development, React, Node.js.'
-  // },
-  // {
-  //   id: '5',
-  //   name: 'MD Al Shahrier Akon',
-  //   role: 'Graphics Designer',
-  //   company: 'Green Soul IT',
-  //   photo: 'https://picsum.photos/seed/dev2/400/400',
-  //   details: 'BSc in Computer Science from Southeast University. Specializes in frontend & backend development, React, Node.js.'
-  // }
+      id: '1',
+      name: 'Tareque Mahmud',
+      role: 'CEO & Founder',
+      company: 'Green Soul IT',
+      photo: '/tareque.jpg',
+      details: 'MBA in Business Administration from Dhaka University. 10+ years experience leading tech startups and digital ventures.',
+      facebook: 'https://www.facebook.com/greensoulmarketin',
+      linkedin: 'https://linkedin.com/in/tarequemahmud',
+    },
+    {
+      id: '2',
+      name: 'Aminul Islam Shuvo',
+      role: 'Marketing Head',
+      company: 'Green Soul IT',
+      photo: 'https://i.postimg.cc/QdY0Y5cB/shuvo-vai.jpg',
+      facebook: 'https://www.facebook.com/greensoulmarketin',
+      linkedin: 'https://linkedin.com/in/tarequemahmud',
+      details: 'Expert in digital marketing strategies and brand scaling with a focus on ROI-driven campaigns.',
+    },
+    {
+      id: '3',
+      name: 'Kaniz Fatema',
+      role: 'Fromt-end Developer',
+      company: 'Green Soul IT',
+      photo: '/kaniz.png',
+      details: 'Expert in digital marketing strategies and brand scaling with a focus on ROI-driven campaigns.',
+      facebook: 'https://www.facebook.com/greensoulmarketin',
+      linkedin: 'https://linkedin.com/in/tarequemahmud',
+    },
+    {
+      id: '4',
+      name: 'Aminur Rahman Suhan',
+      role: 'Full-Stack Developer',
+      company: 'Green Soul IT',
+      photo: '/suhan.png',
+      details: 'Expert in digital marketing strategies and brand scaling with a focus on ROI-driven campaigns.',
+      facebook: 'https://www.facebook.com/profile.php?id=100082093456990',
+      linkedin: 'https://www.linkedin.com/in/aminur-rahman-200366328/',
+    },
+    {
+      id: '5',
+      name: 'Mushfiqa Akter',
+      role: 'Marketing Head',
+      company: 'Green Soul IT',
+      photo: '/image.png',
+      details: 'Expert in digital marketing strategies and brand scaling with a focus on ROI-driven campaigns.'
+    },
   ];
 };
 

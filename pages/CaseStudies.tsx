@@ -6,7 +6,7 @@ const caseStudies = [
     id: '1',
     title: 'Social Media Campaign',
     description: 'Boosted engagement and lead generation by 70% using data-driven social media strategies across Instagram and LinkedIn.',
-    image: 'https://timesinternet.in/blog/wp-content/uploads/2023/12/Shutterstock_1814591309.jp',
+    image: 'sss.png',
     category: 'Digital Strategy',
     link: '/case-studies/1',
   },
@@ -20,19 +20,19 @@ const caseStudies = [
   },
   {
     id: '3',
+    title: 'E-commerce Growth Engine',
+    description: 'Developed a high-converting e-commerce platform with custom integrations, resulting in a 150% increase in online revenue within the first quarter.',
+    image: 'ecom.png',
+    category: 'Web Development',
+    link: '/case-studies/4',
+  },
+  {
+    id: '4',
     title: 'Lead Conversion Funnel',
     description: 'Implemented automated email campaigns and content funnels, increasing lead conversions by 45% within 3 months.',
     image: 'https://timesinternet.in/blog/wp-content/uploads/2023/12/Shutterstock_1814591309.jpg',
     category: 'Email Marketing',
     link: '/case-studies/3',
-  },
-  {
-    id: '4',
-    title: 'E-commerce Growth Engine',
-    description: 'Developed a high-converting e-commerce platform with custom integrations, resulting in a 150% increase in online revenue within the first quarter.',
-    image: 'https://img.freepik.com/premium-photo/web-development-concept-with-laptop-icons_23-2148784348.jpg',
-    category: 'Web Development',
-    link: '/case-studies/4',
   },
 ];
 

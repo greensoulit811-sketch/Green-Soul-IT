@@ -141,7 +141,7 @@ export const fetchTeam = async (): Promise<TeamMember[]> => {
       name: 'Aminul Islam Shuvo',
       role: 'Marketing Head',
       company: 'Green Soul IT',
-      photo: 'https://i.postimg.cc/QdY0Y5cB/shuvo-vai.jpg',
+      photo: '/shuvo.png',
       facebook: 'https://www.facebook.com/greensoulmarketin',
       linkedin: 'https://linkedin.com/in/tarequemahmud',
       details: 'Expert in digital marketing strategies and brand scaling with a focus on ROI-driven campaigns.',
@@ -169,7 +169,7 @@ export const fetchTeam = async (): Promise<TeamMember[]> => {
     {
       id: '5',
       name: 'Mushfiqa Akter',
-      role: 'Marketing Head',
+      role: 'Senior Marketing Operator',
       company: 'Green Soul IT',
       photo: '/image.png',
       details: 'Expert in digital marketing strategies and brand scaling with a focus on ROI-driven campaigns.'

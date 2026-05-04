@@ -200,7 +200,7 @@ const About: React.FC = () => {
               <div className="mt-16 text-center">
                 <button 
                   onClick={() => setShowAll(!showAll)}
-                  className="px-8 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-green-600 transition-all duration-300 uppercase tracking-widest text-[12px] shadow-lg"
+                  className="px-8 py-3 bg-green-600 rounded-lg font-bold text-white font-bold  hover:bg-green-700 transition-all duration-300 uppercase tracking-widest text-[12px] shadow-lg"
                 >
                   {showAll ? 'Show Less' : 'View All'}
                 </button>
@@ -225,7 +225,7 @@ const About: React.FC = () => {
                 <h3 className="text-3xl font-black text-gray-900 mb-4">{selectedMember.name}</h3>
                 <p className="text-gray-600 leading-relaxed mb-8">{selectedMember.details}</p>
                 <div className="flex gap-4">
-                  <button className="bg-black text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-all duration-300">Connect</button>
+                  <button className="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition-all duration-300">Connect</button>
                 </div>
               </div>
             </div>

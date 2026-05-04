@@ -93,7 +93,7 @@ const Home: React.FC = () => {
       <div className="bg-white rounded-3xl overflow-hidden  duration-300">
         <div className="w-full h-64 overflow-hidden">
           <img
-            src="https://www.suryainformatics.com/wp-content/uploads/2023/12/wp3950068.jpg"
+            src="/sss.png"
             alt="Digital Marketing Strategy"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           />
